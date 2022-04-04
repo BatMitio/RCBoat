@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private final BluetoothService bluetoothService;
 
     public MainActivity() {
-        this.bluetoothService = new BluetoothService();
+        this.bluetoothService = new BluetoothService(this);
     }
 
     @Override
